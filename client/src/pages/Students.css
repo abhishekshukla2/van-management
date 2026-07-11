@@ -1,0 +1,74 @@
+.students{
+
+padding:20px;
+width:100%;
+
+}
+
+
+.students form{
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+background:white;
+padding:20px;
+border-radius:10px;
+
+}
+
+
+
+.students input{
+
+padding:12px;
+border:1px solid #ccc;
+border-radius:5px;
+
+}
+
+
+
+.students button{
+
+background:#2563eb;
+color:white;
+border:none;
+padding:12px;
+border-radius:5px;
+cursor:pointer;
+
+}
+
+
+
+.students table{
+
+margin-top:30px;
+width:100%;
+border-collapse:collapse;
+
+}
+
+
+
+.students th,
+.students td{
+
+border:1px solid #ddd;
+padding:10px;
+text-align:center;
+
+}
+
+
+
+@media(max-width:768px){
+
+.students form{
+
+grid-template-columns:1fr;
+
+}
+
+}

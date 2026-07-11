@@ -1,0 +1,70 @@
+.routes{
+
+padding:20px;
+width:100%;
+
+}
+
+
+.routes form{
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+background:white;
+padding:20px;
+border-radius:10px;
+
+}
+
+
+.routes input{
+
+padding:12px;
+border:1px solid #ccc;
+border-radius:5px;
+
+}
+
+
+.routes button{
+
+background:#7c3aed;
+color:white;
+border:none;
+padding:12px;
+border-radius:5px;
+cursor:pointer;
+
+}
+
+
+.routes table{
+
+margin-top:30px;
+width:100%;
+border-collapse:collapse;
+
+}
+
+
+.routes th,
+.routes td{
+
+border:1px solid #ddd;
+padding:10px;
+text-align:center;
+
+}
+
+
+
+@media(max-width:768px){
+
+.routes form{
+
+grid-template-columns:1fr;
+
+}
+
+}
